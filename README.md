@@ -1,4 +1,4 @@
-# Quantised energies and tunnelling decay
+# Tunnel splitting in a double-well potential
 
 Finite-difference solver for the time-independent Schrödinger equation in a double well with
 varying potential. Computes eigenvalues and eigenstates and recovers the wavefunction's
@@ -54,8 +54,8 @@ Complete method and analysis can be read in [docs/](docs/).
 ## Run
 
 ```
-git clone https://github.com/kv2304/tunnelling-energies.git
-cd tunnelling-energies
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-python levels.py     # ~3s, redraws figures/
+python levels.py
 ```
